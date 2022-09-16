@@ -17,3 +17,19 @@ body {
     place-items: center;
     min-height: 100vh;
 }
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(192, 109, 109);
+    margin: 10px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
