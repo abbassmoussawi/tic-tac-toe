@@ -1,0 +1,19 @@
+body {
+    background-color: green;
+}
+
+.image-1 {
+    background-image: url("/images/red.png");
+    background-repeat: no-repeat;
+}
+
+.image-2 {
+    background-image: url("/images/yellow.png");
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
